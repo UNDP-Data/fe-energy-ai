@@ -1,5 +1,5 @@
 
-# Demo - Frontend
+# Demo - AI App Frontend
 
 ## Overview
 The repo contains the front-end for the platform demo. 
