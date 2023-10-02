@@ -6,7 +6,7 @@ The repo contains the front-end for the platform demo.
 
 The frontend is built using [Next.JS](https://nextjs.org/), a React framework.
 
-The backend for this platform can be found [HERE].(https://github.com/UNDP-Data/dsc-energy-ai-backend)
+The backend for this platform can be found [HERE](https://github.com/UNDP-Data/dsc-energy-ai-backend)
 
 
 ### Technology Pre-requisites
