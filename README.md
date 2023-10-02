@@ -56,7 +56,7 @@ The app will be running at [http://localhost:3000](http://localhost:3000) in you
 
 1. First build the docker image for the Flask Backend using [The backend repo](https://github.com/UNDP-Data/dsc-energy-ai-backend)
 
-2. Update the ```image_name``` and ``OPENAI_API_KEY``` values in ```docker-compose.yml```
+2. Update the ```image_name``` and ```OPENAI_API_KEY``` values in ```docker-compose.yml```
 
 3. Run the docker-compose command:
 ```
