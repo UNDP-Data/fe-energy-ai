@@ -6,6 +6,9 @@ The repo contains the front-end for the platform demo.
 
 The frontend is built using [Next.JS](https://nextjs.org/), a React framework.
 
+The backend for this platform can be found [HERE].(https://github.com/UNDP-Data/dsc-energy-ai-backend)
+
+
 ### Technology Pre-requisites
 - Node: https://nodejs.org/en/download
 - Npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
@@ -47,6 +50,22 @@ Run the docker image
 docker run -p 3000:3000 <name-of-image>
 ```
 The app will be running at [http://localhost:3000](http://localhost:3000) in your browser.
+
+
+### Running the frontend and backend apps using Docker Compose
+
+1. First build the docker image for the Flask Backend using [The backend repo](https://github.com/UNDP-Data/dsc-energy-ai-backend)
+
+2. Update the ```image_name``` and ``OPENAI_API_KEY``` values in ```docker-compose.yml```
+
+3. Run the docker-compose command:
+```
+docker-compose up -d  
+```
+
+4. Access the application:
+- Frontend: http://localhost:80
+- Backend: http://localhost:5000
 
 
 ## Demo Status:

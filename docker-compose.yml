@@ -1,0 +1,17 @@
+version: '3'
+services:
+  frontend:
+    image: <image_name>
+    container_name: app-frontend
+    ports:
+      - "80:3000"
+    depends_on:
+      - "backend"
+
+  backend:
+    image: <image_name>
+    container_name: app-backend
+    environment:
+      OPENAI_API_KEY: <OPENAI_API_KEY>
+    ports:
+        - "5000:5000"
